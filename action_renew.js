@@ -141,7 +141,7 @@ async function launchChrome() {
         `--remote-debugging-port=${DEBUG_PORT}`,
         '--no-first-run',
         '--no-default-browser-check',
-        '--headless=new', // 云端必须 headless
+        // '--headless=new', // 云端必须 headless
         '--disable-gpu',
         '--window-size=1280,720',
     ];
