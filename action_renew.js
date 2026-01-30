@@ -159,7 +159,7 @@ async function launchChrome() {
 
     const chrome = spawn(CHROME_PATH, args, {
         detached: true,
-        stdio: ['ignore', 'inherit', 'inherit']
+        stdio: 'ignore'
     });
     chrome.unref();
 
